@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+    
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    
+    <title>REGISTRO PROFECIONAL</title>
+    <link rel="stylesheet" href="ESTILO.CSS">
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+
+<body>
+    
+    <h1>Formulario Registro de Miembros Profesionales SAPG</h1> 
+    
+    
+     
+       
+   <form action="Registro Datos sapg.php" method="post" class="form-registro">
+    <h2 class="form-titulo">REGISTRA TUS DATOS</h2>
+    <div class="contenedor-imputs">
+        
+            <input type="text" name="nomre" placeholder="Nombre" class="input-100" required>
+            <input type="text" name="apellidos" placeholder="Apellidos" class="input-48" required>
+            <input type="number" name="cedula" placeholder="Cedula" class="input-48" required>
+            <input type="number" name="telefono" placeholder="Telefono Residencial" class="input-48" required>
+            <input type="number" name="celular" placeholder="Telefono Celular" class="input-48" required>
+            <input type="email" name="correo" placeholder="Tu Correo Electronico" class="input-100" required>
+            <label for="fecha">FECHA DE NACIMIENTO:</label>            
+            <input type="date" name="fecha_nacimiento" class="input-100" required>  <br/>          
+            <label for="PROFESION">SELECCIONA TU PROFESION:</label>
+            
+            <SElect name='profesiones'>
+                <option value="Abogado,">Abogado/a</option>
+                <option value="Administrador/a">Administrador/a</option>
+                <option value="Agricultor">Agricultor</option>
+                <option value="Antropólogo">Antropólogo/a</option>
+                <option value="Arqueólogo/a">Arqueólogo/a</option>
+                <option value="Arquitecto/a">Arquitecto/a</option>
+                <option value="Bibliotecólogo/a">Bibliotecólogo/a</option>
+                <option value="Biólogo/a">Biólogo/a</option>
+                <option value="Contador/a">Contador/a</option>
+                <option value="Economista/a">Economista/a</option>
+                <option value="Electricista/a">Electricista/a</option>
+                <option value="Enfermero/a">Enfermero/a</option>
+                <option value="Escritor/a">Escritor/a</option>
+                <option value="Farmacólogo/a">Farmacólogo/a</option>
+                <option value="Filósofo/a">Filósofo/a</option>
+                <option value="Físico/a">Físico/a</option>
+                <option value="Historiador/a">Historiador/a</option>
+                <option value="Ingeniería Automotriz">Ingeniería Automotriz</option>
+                <option value="Ingeniero/a">Ingeniero/a</option>
+                <option value="Ingeniero/a Agronomo">Ingeniero/a Agronomo</option>
+                <option value="Ingeniero/a Civil">Ingeniero/a Civil</option>
+                <option value="Ingeniero/a Electrico/a">Ingeniero/a Electrico/a</option>
+                <option value="Ingeniero/a Electromecanica">Ingeniero/a Electromecanica</option>
+                <option value="Ingeniero/a Electronica">Ingeniero/a Electronica</option>
+                <option value="Ingeniero/a Hidraulico">Ingeniero/a Hidraulico</option>
+                <option value="Ingeniero/a Industrial">Ingeniero/a Industrial</option>
+                <option value="Ingeniero/a Mecanica">Ingeniero/a Mecanica</option>
+                <option value="Ingeniero/a Sistemas">Ingeniero/a Sistemas</option> 
+                <option value="Ingeniero/a Telecomunicaciones">Ingeniero/a Telecomunicaciones</option>
+                <option value="Locutor/a">Locutor/a</option>
+                <option value="Medico/a">Medico/a</option>
+                <option value="Músico/a">Músico/a</option>
+                <option value="Periodista">Periodista</option>
+                <option value="Politólogo/a">Politólogo/a</option>
+                <option value="Profesor/a">Profesor/a</option>
+                <option value="Psicólogo/a">Psicólogo/a</option>
+                <option value="Sociólogo/a">Sociólogo/a</option> 
+            </SElect>
+
+            <br>
+            <br> 
+            
+           
+             
+            <label for="PAIS" class="input-100" required></label>PAIS DE RESIDENCIA:</label>
+        
+            <SElect name='paises'>
+                <option value="Republica Dominicana,">Republica Dominicana</option>
+                <option value="USA">Estados Unidos De America</option>
+                <option value="Mexico">Mexico</option>
+                <option value="España">España</option>
+                <option value="Italia">Italia</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Otro">Otro</option>
+                <input type="text" name="Otro_pais" placeholder="De ser otro Pais Digitalo aqui" class="input-100">
+                
+                
+
+            </SElect> 
+            <input type="text" name="provincia" placeholder="Tu Provincia:" class="input-100" required> 
+             <input type="text" name="municipio" placeholder="Tu Municipio:" class="input-100" class="input-48" required>
+            <input type="text" name="sector" placeholder="Sector:" class="input-100" required>   
+            <input type="text" name="calle" placeholder="Calle / No.:" class="input-100" required>
+           
+            
+            
+            
+            
+                       
+            
+            <input type="submit" value="Registrar tus Datos" class="btn-enviar">
+            <input class="btn-reset" type="reset" value="Limpiar Campos"> 
+
+            <p>Forma parte del gran equipo de profecionales de la SAPG</p>
+        </div> 
+       
+
+            </DIV>
+    </form>
+    <div class="box">
+        <h2><P>Secretaría de Asuntos Profesinales y Gremiales **Partido Fuerza del Pueblo**.</P></h2>
+        <p>Ya te registraste? Ven al portal de la Ferza de Pueblo Aqui. <a href="">https://fuerzadelpueblo.do/</a></p>  
+        
+     <div class="Footer-classes-footerCopy-3vHs">© 2022 SAPG</div> 
+ <div class="logo"> 
+
+ </div>      
+        
+
+   
+</body>
+
+</html>
+
+   
+
+
+
+

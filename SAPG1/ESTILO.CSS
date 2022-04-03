@@ -1,0 +1,135 @@
+* { 
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+     
+ body { 
+
+    font-family: sans-serif;
+    background: url(slide-fp.jpeg); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 100%;
+    background-size: cover;
+    
+} 
+
+H1 {
+    
+    color: #f8f7f7;
+    min-height: 100px;
+    max-width: 1400px;
+    min-width: none;
+    width: 100%;
+    padding: 20px; 
+    text-align: center;
+    background-color: #0da326;
+    position: fixed;  
+    background-position: center;
+    top: 0%;
+   
+    
+}
+
+ 
+
+.form-registro {
+    width: 800%;
+    max-width: 500px;
+    margin:auto;
+    padding-top: 40px;
+        
+    
+    
+  
+}
+.form-titulo {
+    width:auto;
+    height: auto;
+    background: #014d0e;
+    color: white;
+    padding-top: 5rem;
+    text-align: center;
+    font-weight: 500;
+    font-size: 150%;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom: 5px solid rgb(1, 109, 24);
+    
+}
+
+.contenedor-imputs { 
+    background:url(Logo2\ FP.jpeg) no-repeat;
+    padding: 40px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: #014d0e;
+    background-size: cover;
+    background-position: center;
+    
+    
+  
+}
+input {
+    
+    margin-bottom: 25px; 
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 25px;
+    border: 1px solid #014d0e;
+    cursor: pointer;
+    
+    
+}  
+.input-48 {
+    width: 100%;
+}
+
+.input-100 {
+    width: 100%;
+    padding-top: 5%;
+    margin-top: 10px;
+}
+
+.btn-enviar {
+    background-color: #0759f1;
+    color: white;
+    margin: auto;
+    padding: 20px 40px
+    
+} 
+.btn-reset {
+    background-color: orangered;
+    color: #f8f7f7;
+    margin: auto;
+    padding: 20px 40px;
+    cursor: pointer;
+}
+
+p {
+    width: 100%;    
+    text-align:center;
+    font-size: 120%;   
+    
+    
+} 
+h2 {
+    color: white;
+}
+
+.Footer-classes-footerCopy-3vHs {
+    background-color: #025302;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    padding: 20px
+    
+ 
+}
+
+.box {
+    color: #f8f7f7;
+
+}
